@@ -3,3 +3,35 @@ p {
     font-weight: bold;
     font-size: 16px;
 }
+
+header {
+    background-color: teal;
+    color: white;
+    padding: 20px 0;
+}
+
+a {
+  display: inline-block;
+  color: #3498db;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #3498db;
+  transition: all 0.3s ease;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ecf0f1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+button:hover {
+  background-color: red;
+}
